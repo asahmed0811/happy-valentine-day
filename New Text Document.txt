@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine's Day ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #ff99cc, #ffe6f0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 500px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      color: #e60073;
+    }
+    p {
+      font-size: 18px;
+      color: #444;
+    }
+    button {
+      background: #e60073;
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background: #cc005f;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: scale(0.9);}
+      to {opacity: 1; transform: scale(1);}
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy Valentine's Day ❤️</h1>
+    <p>
+      From the moment you came into my life, everything became brighter.
+      You are my happiness, my peace, and my forever.
+    </p>
+    <p><strong>I love you more than words can say 💕</strong></p>
+    <button onclick="alert('Yes! Forever and always ❤️')">
+      Will you be my Valentine?
+    </button>
+  </div>
+</body>
+</html>
